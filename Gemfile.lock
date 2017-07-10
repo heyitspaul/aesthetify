@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    aesthetify (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.10.2)
+    minitest-proveit (1.0.0)
+      minitest (> 5, < 7)
+    rake (12.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aesthetify!
+  bundler (~> 1.15)
+  minitest
+  minitest-proveit
+  rake
+
+BUNDLED WITH
+   1.15.1
