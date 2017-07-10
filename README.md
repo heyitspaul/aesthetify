@@ -1,5 +1,7 @@
 # aesthetify
 
+[![Gem Version](https://badge.fury.io/rb/aesthetify.svg)](https://badge.fury.io/rb/aesthetify)
+
 aesthetify makes it simple to take any string and transform it for the
 ＡＥＳＴＨＥＴＩＣ. In addition, it also makes creating Ｆｕｌｌｗｉｄｔｈ text
 just as simple.
