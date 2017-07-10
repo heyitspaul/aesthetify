@@ -1,4 +1,4 @@
-require_relative '../lib/aesthetify'
+require 'aesthetify'
 require 'minitest/autorun'
 require 'minitest/hell'
 
