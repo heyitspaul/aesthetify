@@ -8,12 +8,13 @@
 class String
   def aesthetify
     output = []
-    self.split("").each do |letter|
+    # Did you know? You can do something like this without a `self`
+    split("").each do |letter|
       # We skip lowercase letters so we can turn them uppercase for the
       # aesthetify method
-      if (0x0021..0x0060).include?(letter.ord) || (0x007B..0x007E).include?(letter.ord)
+      if (0x0021..0x0060).cover?(letter.ord) || (0x007B..0x007E).cover?(letter.ord)
         output << (letter.ord + 0xFF00 - 32).chr(Encoding::UTF_8)
-      elsif (0x0061..0x007A).include?(letter.ord)
+      elsif (0x0061..0x007A).cover?(letter.ord)
         output << (letter.ord + 0xFF00 - 64).chr(Encoding::UTF_8)
       else
         output << letter
@@ -23,13 +24,13 @@ class String
   end
 
   def aesthetify!
-    self.replace self.aesthetify
+    replace aesthetify
   end
 
   def fullwidth
     output = []
-    self.split("").each do |letter|
-      if(0x0021..0x007E).include?(letter.ord)
+    split("").each do |letter|
+      if (0x0021..0x007E).cover?(letter.ord)
         output << (letter.ord + 0xFF00 - 32).chr(Encoding::UTF_8)
       else
         output << letter
@@ -39,6 +40,6 @@ class String
   end
 
   def fullwidth!
-    self.replace self.fullwidth
+    replace fullwidth
   end
 end

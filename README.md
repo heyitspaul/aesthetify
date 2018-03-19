@@ -34,5 +34,12 @@ puts text
 #=> This is the ＳＡＤ ＢＯＹＳ club
 ```
 
+## Supported Ruby versions
+aesthetify supports all of the currently supported versions of Ruby. As of
+2018-03-18 these are:
+- Ruby 2.3 - 2.3.6
+- Ruby 2.4 - 2.4.3
+- Ruby 2.5
+
 ## License
-aesthetify is released under the [MIT License](https://opensource.org/licenses/MIT).
+aesthetify is licensed under the [MIT License](https://opensource.org/licenses/MIT).

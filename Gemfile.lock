@@ -1,15 +1,15 @@
 PATH
   remote: .
   specs:
-    aesthetify (1.0.0)
+    aesthetify (1.0.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    minitest (5.10.2)
+    minitest (5.11.3)
     minitest-proveit (1.0.0)
       minitest (> 5, < 7)
-    rake (12.0.0)
+    rake (12.3.0)
 
 PLATFORMS
   ruby
@@ -22,4 +22,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.15.1
+   1.16.1

@@ -12,6 +12,8 @@ FULLWIDTH1 = " ！＂＃＄％＆＇（）＊＋，－．／０１２３４５�
 FULLWIDTH2 = "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ．"
 
 class AesthetifyTest < Minitest::Test
+  prove_it!
+
   def test_aesthetify
     assert_equal AESTHETIFY1, DATA1.aesthetify
     assert_equal AESTHETIFY2, DATA2.aesthetify
