@@ -1,6 +1,7 @@
 # aesthetify
 
 [![Gem Version](https://badge.fury.io/rb/aesthetify.svg)](https://badge.fury.io/rb/aesthetify)
+[![Build Status](https://travis-ci.org/TheAssailant/aesthetify.svg?branch=master)](https://travis-ci.org/TheAssailant/aesthetify)
 
 aesthetify makes it simple to take any string and transform it for the
 ＡＥＳＴＨＥＴＩＣ. In addition, it also makes creating Ｆｕｌｌｗｉｄｔｈ text
@@ -36,10 +37,10 @@ puts text
 
 ## Supported Ruby versions
 aesthetify supports all of the currently supported versions of Ruby. As of
-2018-03-18 these are:
-- Ruby 2.3 - 2.3.6
-- Ruby 2.4 - 2.4.3
-- Ruby 2.5
+2018-03-30 these are:
+- Ruby 2.3 - 2.3.7
+- Ruby 2.4 - 2.4.4
+- Ruby 2.5 - 2.5.1
 
 ## License
 aesthetify is licensed under the [MIT License](https://opensource.org/licenses/MIT).
