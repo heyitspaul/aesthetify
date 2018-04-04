@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    aesthetify (1.0.1)
+    aesthetify (1.0.2)
 
 GEM
   remote: https://rubygems.org/

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "aesthetify"
-  s.version  = "1.0.1"
+  s.version  = "1.0.2"
   s.authors  = "TheAssailant"
   s.email    = "TheAssailant@users.noreply.github.com"
   s.summary  = %q{aesthetify is a gem that lets you transform ASCII text into fullwidth text of 2 distinct flavors: regular ﻿Ｆｕｌｌｗｉｄｔｈ and ＡＥＳＴＨＥＴＩＣ}

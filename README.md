@@ -10,7 +10,11 @@ just as simple.
 aesthetify comes with regular methods and bang versions of those methods for
 in-place string modification.
 
-## Examples
+## Usage
+
+```ruby
+require "aesthetify"
+```
 
 Using String#aesthetify:
 ```ruby
