@@ -10,6 +10,9 @@ Gem::Specification.new do |s|
   s.required_ruby_version = "~> 2.3"
 
   s.add_development_dependency "bundler", "~> 1.15"
+  s.add_development_dependency "minitest"
+  s.add_development_dependency "minitest-proveit"
+  s.add_development_dependency "rake"
 
   s.files      = `git ls-files`.split("\n")
   s.test_files = `git ls-files -- test/*`.split("\n")
