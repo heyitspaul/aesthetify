@@ -39,9 +39,18 @@ puts text
 #=> This is the ＳＡＤ ＢＯＹＳ club
 ```
 
+## CLI usage
+
+Simply call either the `aesthetify` or `fullwidth` commands and enter your text after.
+
+```bash
+$ aesthetify macintosh plus
+ＭＡＣＩＮＴＯＳＨ ＰＬＵＳ
+```
+
 ## Supported Ruby versions
 aesthetify supports all of the currently supported versions of Ruby. As of
-2018-10-19 these are:
+2018-12-19 these are:
 - Ruby 2.3 - 2.3.8
 - Ruby 2.4 - 2.4.5
 - Ruby 2.5 - 2.5.3
