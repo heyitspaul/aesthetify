@@ -1,11 +1,14 @@
 Gem::Specification.new do |s|
   s.name     = "aesthetify"
-  s.version  = "1.0.2"
+  s.version  = "1.1.0"
   s.authors  = "TheAssailant"
-  s.email    = "TheAssailant@users.noreply.github.com"
-  s.summary  = %q{aesthetify is a gem that lets you transform ASCII text into fullwidth text of 2 distinct flavors: regular ﻿Ｆｕｌｌｗｉｄｔｈ and ＡＥＳＴＨＥＴＩＣ}
+  s.email    = "TheAssailant@protonmail.com"
+  s.summary  = %q{aesthetify is a gem that lets you transform ASCII text into fullwidth text of 2 distinct flavors: regular Ｆｕｌｌｗｉｄｔｈ and ＡＥＳＴＨＥＴＩＣ}
   s.homepage = "https://github.com/TheAssailant/aesthetify"
   s.license  = "MIT"
+
+  s.executables << "aesthetify" << "fullwidth"
+  s.require_paths = ['lib']
 
   s.required_ruby_version = "~> 2.3"
 
