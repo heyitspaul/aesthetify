@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-- 2.7.0
-- 2.6.5
-- 2.5.7
-- 2.4.9
+- 3.1.2
+- 3.0.4
+- 2.7.6
+- 2.6.10
 script:
 - bundle exec rake test
 before_install:

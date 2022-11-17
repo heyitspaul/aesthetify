@@ -50,10 +50,11 @@ $ aesthetify macintosh plus
 
 ## Supported Ruby versions
 aesthetify supports all of the currently supported versions of Ruby. As of
-2018-12-19 these are:
-- Ruby 2.3 - 2.3.8
-- Ruby 2.4 - 2.4.5
-- Ruby 2.5 - 2.5.3
+2022-11-17 these are:
+- Ruby 2.6 - 2.6.10
+- Ruby 2.7 - 2.7.9
+- Ruby 3.0 - 3.0.4
+- Ruby 3.1 - 3.1.2
 
 ## License
 aesthetify is licensed under the [MIT License](https://opensource.org/licenses/MIT).
